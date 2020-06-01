@@ -1,4 +1,4 @@
-$(document).ready(function(){
+/*$(document).ready(function(){
 	a = 1;
 	b = 0.02;
 	
@@ -18,4 +18,4 @@ $(document).ready(function(){
 		}
 		
 	});
-});
+});*/
