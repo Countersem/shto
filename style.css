@@ -321,14 +321,14 @@ a {
 
 .tools_item:hover{
 	transform: scale(1.01, 1.01);
-    color: #160092;
+    color: #0019a0;
 }
 
 .tools_item_fav{
     position: absolute;
-    width: 5.5vh;
-    top: 14vh;
-    left: 6.3vh;
+    width: 4.7vh;
+    top: 13.8vh;
+    left: 6.5vh;
 }
 
 .tools_item_num{
@@ -346,8 +346,8 @@ a {
 }
 
 .tools_item_feat{
-    padding: 1vh 0;
-    font-size: 4vh;
+    padding: 0.55vh 0;
+    font-size: 3vh;
     font-weight: 300;
     font-style: italic;
 }
@@ -356,6 +356,13 @@ a {
 	padding: 0.5vh 0 0;
 	font-size: 3vh;
 	font-weight: 300;
+}
+
+.tools_item_insp{
+    transform: translateY(1.1vh);
+    font-style: italic;
+    font-size: 1.6vh;
+    opacity: 0.7;
 }
 
 /* Footer */
@@ -501,7 +508,7 @@ a {
     }
     
     .tools_item_feat{
-        font-size: 3vh;
+        font-size: 2.5vh;
     }
     
     .tools_item_descr{
@@ -535,7 +542,7 @@ a {
 	}
 
 	.footer{
-		font-size: 2vh;
+		font-size: 1.6vh;
 		padding: 2vh;
 	}
 }
