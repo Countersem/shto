@@ -15,7 +15,7 @@ a {
 	font-family: 'Oswald', sans-serif;
 	height: 8%;
 	width: 100%;
-	background-color: #6468ff;
+	background-color: #4c51ff;
 	position: fixed;
 	z-index: 2;
 }
@@ -35,6 +35,32 @@ a {
 	z-index: 2;
 }
 
+.container_pbar{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 60%;
+    left: -6%;
+    transform: skewX(-15deg);
+    
+    box-shadow: 0 10vh 14vh -6vh #ff00ce inset;
+    opacity: 0.5;
+    
+    animation: pbar 1.2s 1 ease, pbar_color 6s infinite ease-in-out;
+}
+
+@keyframes pbar{
+    from { right: 100%; }
+    to { right: 60%; }
+}
+
+@keyframes pbar_color {
+  50% {
+    background: #00ebff;
+    box-shadow: 0 10vh 14vh -6vh #009dff inset;
+  }
+}
+
 .item {
 	text-align: center;
 	font-size: 3vh;
@@ -50,6 +76,8 @@ a {
 .logo{
 	font-size: 2vh;
 	font-weight: 700;
+    
+    z-index: 1;
     
     transform: translateY(-0.2vh);
 }
@@ -303,6 +331,7 @@ a {
 .tools_item{
 	color: #000;
 	position: relative;
+    overflow: hidden;
 	height: 100%;
 	width: 100%;
 	background: white;
@@ -364,6 +393,7 @@ a {
     font-size: 1.6vh;
     opacity: 0.7;
 }
+
 
 /* Footer */
 
