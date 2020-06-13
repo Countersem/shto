@@ -39,7 +39,7 @@ a {
     position: absolute;
     top: 0;
     bottom: 0;
-    right: 60%;
+    right: 55%;
     left: -6%;
     transform: skewX(-15deg);
     
@@ -51,7 +51,7 @@ a {
 
 @keyframes pbar{
     from { right: 100%; }
-    to { right: 60%; }
+    to { right: 55%; }
 }
 
 @keyframes pbar_color {
@@ -363,7 +363,7 @@ a {
 .tools_item_num{
     position: absolute;
     font-size: 12vh;
-    left: 6vh;
+    left: 6.1vh;
     top: 1vh;
 }
 
